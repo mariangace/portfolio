@@ -64,7 +64,7 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <img className="header-img" src="../images/bunny_example.png" />
+            <img className="header-img" alt="bunny" src="../images/bunny_example.png" />
             <h2 className="responsive-headline">Hi! I'm {name}.</h2>
             <h3>
               I'm a {city} based <span>{occupation}</span> ⚛️.
