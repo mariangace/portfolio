@@ -113,7 +113,7 @@ header .social li a {
   color: #000000;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: #8c3da8;
 }
 
 /* scrolldown link */
@@ -137,7 +137,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: #8c3da8;
 }
 
 /* primary navigation
@@ -195,7 +195,7 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color: #fff;
+  color: #8c3da8;
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -208,7 +208,14 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(140, 61, 168, 1) 0%,
+    rgba(0, 212, 255, 0.520045518207283) 100%
+  );
 }
 
 /* ------------------------------------------------------------------ */
@@ -228,7 +235,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: #8c3da8;
 }
 
 #about h2 {
@@ -282,7 +289,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-  color: #11abb0;
+  color: #8c3da8;
 }
 #resume a:hover,
 #resume a:focus {
@@ -295,7 +302,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid #8c3da8;
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -905,7 +912,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-  color: #11abb0;
+  color: #8c3da8;
 }
 #contact a:hover,
 #contact a:focus {
@@ -975,7 +982,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #11abb0;
+  background-color: #8c3da8;
 }
 #contact button.submit {
   text-transform: uppercase;
@@ -994,7 +1001,7 @@ call-to-action .button {
   background: #fff;
 }
 #contact span.required {
-  color: #11abb0;
+  color: #8c3da8;
   font-size: 13px;
 }
 #message-warning,
@@ -1010,7 +1017,7 @@ call-to-action .button {
   color: #d72828;
 }
 #message-success {
-  color: #11abb0;
+  color: #8c3da8;
 }
 
 #message-warning i,
@@ -1099,7 +1106,7 @@ footer .social-links li {
   margin: 0;
   padding: 0;
   margin-left: 42px;
-  color: #f06000;
+  color: #f8d0d3;
 }
 
 footer .social-links li:first-child {
