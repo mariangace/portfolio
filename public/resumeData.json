@@ -2,7 +2,7 @@
   "main": {
     "name": "Mariana García Cervantes",
     "occupation": "Software Developer",
-    "description": "I love with love visual things, technology and traveling",
+    "description": "I love cute visual things, technology and traveling",
     "image": "profile.jpg",
     "bio": "My name is Mariana García Cervantes. I'm from Mexico currently working as a frontend developer.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
@@ -47,15 +47,15 @@
     "work": [
       {
         "company": "Atomic Labs",
-        "title": "Front end Engineer",
+        "title": "Frontend Engineer",
         "years": "March 2018 - Present",
-        "description": "Front end leader for KAAX fintech project. KAAX is a currency exchange in real time without intermediaries platform. Landing page development using: NextJs, Redux, GraphQL and Strapi CMS.  Webapp development using ReactJS, Redux, Typescript, Sass and Websockets."
+        "description": "Frontend leader for KAAX fintech project. KAAX is a currency exchange in real time without intermediaries platform. Landing page development using: NextJs, Redux, GraphQL and Strapi CMS.  Webapp development using ReactJS, Redux, Typescript, Sass and Websockets."
       },
       {
         "company": "Expertis",
         "title": "Software Engineer",
         "years": "July - March 2018",
-        "description": "Front end Development for Bib & Tucker Application. Bib & Tucker is a web-based uniform provider and management tools for the hospitality industry in New York. Used technologies: Django framework, Javascript. "
+        "description": "Frontend Development for Bib & Tucker Application. Bib & Tucker is a web-based uniform provider and management tools for the hospitality industry in New York. Used technologies: Django framework, Javascript. "
       }
     ],
     "skills": [
