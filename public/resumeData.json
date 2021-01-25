@@ -2,9 +2,9 @@
   "main": {
     "name": "Mariana García Cervantes",
     "occupation": "Software Developer",
-    "description": "I'm in love with lovely visual things, technology and traveling",
+    "description": "I love with love visual things, technology and traveling",
     "image": "profile.jpg",
-    "bio": "My name is Mariana García Cervantes. I'm from Mexico currently working as a front-end developer.",
+    "bio": "My name is Mariana García Cervantes. I'm from Mexico currently working as a frontend developer.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "mariangace@gmail.com",
     "phone": "",
@@ -93,7 +93,7 @@
         "title": "Netflix Clone",
         "category": "Netflix Clone built with MongoDB, ExpressJS, Javascript, NodeJS",
         "image": "netflix-clone.png",
-        "url": ""
+        "url": "https://netflix-clone.bunnycoding.com/singup/singup.html"
       }
     ]
   },
