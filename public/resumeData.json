@@ -94,6 +94,12 @@
         "category": "Netflix Clone built with MongoDB, ExpressJS, Javascript, NodeJS",
         "image": "netflix-clone.png",
         "url": "https://netflix-clone.bunnycoding.com/singup/singup.html"
+      },
+      {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone built with React Js",
+        "image": "amazon-clone.png",
+        "url": "https://amazon-clone.bunnycoding.com/"
       }
     ]
   },
