@@ -1,0 +1,133 @@
+.avatar {
+  transform: scale(0.7);
+}
+
+.forhead {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.forhead .ears {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  top: 35px;
+}
+
+.ears .ear {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  margin: 0 50px;
+  background-color: #fff;
+  /* border: 3px solid black; */
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: 0.5s;
+}
+.ears .ear.right {
+  transform: rotate(15deg);
+}
+.ears .ear.left {
+  transform: rotate(-15deg);
+}
+
+.ears .ear.right:hover {
+  height: 70px;
+}
+.ears .ear.left:hover {
+  height: 70px;
+}
+.face {
+  position: relative;
+  width: 320px;
+  height: 290px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.face:hover::before {
+  top: 210px;
+  width: 20px;
+  height: 20px;
+  border: 50%;
+}
+
+.eyes {
+  position: relative;
+  top: -60px;
+  display: flex;
+}
+
+.eyes .eye {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  background: #fff;
+}
+.eyes .eye::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  width: 15px;
+  height: 15px;
+  background: #333;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.cheeks {
+  position: absolute;
+  bottom: 170px;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cheeks .cheek {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.mouth {
+  position: absolute;
+  bottom: 160px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.mouth .lip {
+  width: 20px;
+  height: 10px;
+  border: 2px solid black;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-top: none;
+}
+
+.object {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  /* background-color: rgb(216, 198, 194); */
+  border-radius: 5px;
+  position: relative;
+  top: -130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(-70deg, #faa2d5, #64acff);
+  -webkit-text-fill-color: transparent;
+}

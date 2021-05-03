@@ -1,0 +1,17 @@
+.banner-text {
+  display: flex;
+}
+
+.img-container {
+  flex: 50;
+  display: flex;
+  justify-content: center;
+}
+
+.description-container h1 {
+  background: -webkit-linear-gradient(-70deg, #faa2d5, #64acff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  font-size: 55px !important;
+}

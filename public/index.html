@@ -14,6 +14,7 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/avatar.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css" />
 
@@ -39,5 +40,20 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
+    <script>
+  
+      const eyeball =() => {
+        let eyes = document.querySelectorAll('.eye');
+        eyes.forEach(eye => {
+          let x = (eye.getBoundingClientRect().left) + (eye.clientWidth /2);
+          let y = (eye.getBoundingClientRect().top) + (eye.clientHeight /2);
+          let radian = Math.atan2(event.pageX - x, event.pageY - y);
+          let rot = (radian * (180 / Math.PI) * -1) + 0;
+          eye.style.transform = "rotate("+rot+"deg)";
+        })
+      }
+      document.querySelector('body')
+      .addEventListener('mousemove', eyeball);
+    </script>
   </body>
 </html>
