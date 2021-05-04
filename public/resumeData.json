@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "Mariana García Cervantes",
+    "name": "Mariana \nGarcía Cervantes",
     "occupation": "Software Developer",
     "description": "I love cute visual things, technology and traveling",
     "image": "profile.jpg",
@@ -107,7 +107,7 @@
     "testimonials": [
       {
         "text": "",
-        "user":""
+        "user": ""
       }
     ]
   }

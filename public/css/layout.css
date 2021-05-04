@@ -23,7 +23,8 @@
 /* ------------------------------------------------------------------ */
 
 body {
-  background: #6f00ff;
+  /*background: #6f00ff; */
+  background: #0d031b;
   font-family: 'Montserrat';
 }
 
@@ -88,7 +89,7 @@ header .banner-text {
 header .banner-text h1 {
   /*font: 90px/1.1em "Monserrat", "opensans-bold", sans-serif;*/
   font-size: 90px/1.1em;
-  color: #000000;
+  color: white;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   /* text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8); */
@@ -102,7 +103,7 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-  color: #8c3da8;
+  color: #a515d8;
   font-weight: 900;
 }
 header .banner-text hr {
