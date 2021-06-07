@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Avatar from './Avatar';
 import './styles.css';
 
 class HeaderDark extends Component {
@@ -7,8 +6,8 @@ class HeaderDark extends Component {
     if (this.props.data) {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
-      var description = this.props.data.description;
-      var city = this.props.data.address.city;
+      // var description = this.props.data.description;
+      // var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
@@ -29,57 +28,49 @@ class HeaderDark extends Component {
           <a className='mobile-btn' href='#home' title='Hide navigation'>
             Hide navigation
           </a>
-
-          <ul id='nav' className='nav'>
-            <li className='current'>
-              <a className='smoothscroll' href='#home'>
-                Home
-              </a>
-            </li>
-            <li>
-              <a className='smoothscroll' href='#about'>
-                About
-              </a>
-            </li>
-            <li>
-              <a className='smoothscroll' href='#resume'>
-                Resume
-              </a>
-            </li>
-            <li>
-              <a className='smoothscroll' href='#portfolio'>
-                Works
-              </a>
-            </li>
-            <li>
-              <a className='smoothscroll' href='#testimonials'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a className='smoothscroll' href='#contact'>
-                Contact
-              </a>
-            </li>
-          </ul>
+          <div className='row'>
+            <ul id='nav' className='nav'>
+              <li className='current'>
+                <a className='smoothscroll' href='#home'>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className='smoothscroll' href='#about'>
+                  About
+                </a>
+              </li>
+              <li>
+                <a className='smoothscroll' href='#resume'>
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a className='smoothscroll' href='#portfolio'>
+                  Works
+                </a>
+              </li>
+              <li>
+                <a className='smoothscroll' href='#contact'>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
 
         <div className='row banner'>
           <div className='banner-text'>
             <div className='description-container'>
-              <h1 className='responsive-headline'>Hi! I'm {name}.</h1>
-              <h3>
-                I'm a {city} based <span>{occupation}</span> ⚛️.
-                <br />
-                {description}.
-              </h3>
+              <h1 className='responsive-headline'>I'm {name}.</h1>
               <hr />
+              <h3>{occupation}</h3>
               <ul className='social'>{networks}</ul>
             </div>
-            <div className='img-container'>
-              <Avatar />
-              {/* <img className="header-img" alt="bunny" src="../images/Bunny_Coding.jpg" /> */}
-            </div>
+            {/* <div className='img-container'> */}
+            {/* <Avatar /> */}
+            {/* <img className="header-img" alt="bunny" src="../images/Bunny_Coding.jpg" /> */}
+            {/* </div> */}
           </div>
         </div>
 

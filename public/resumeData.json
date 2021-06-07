@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Mariana \nGarcía Cervantes",
-    "occupation": "Software Developer",
-    "description": "I love cute visual things, technology and traveling",
+    "occupation": "Software Engineer",
+    "description": "I love cute visual things, technology and traveling.",
     "image": "profile.jpg",
-    "bio": "My name is Mariana García Cervantes. I'm from Mexico currently working as a frontend developer.",
+    "bio": "I'm a Software Engineer working as a Frontend.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "mariangace@gmail.com",
     "phone": "",
@@ -100,6 +100,36 @@
         "category": "Amazon Clone built with React Js ",
         "image": "amazon-clone.png",
         "url": "https://amazon-clone.bunnycoding.com/"
+      },
+      {
+        "title": "Whatsapp Clone",
+        "category": "Whatsapp clone built with React Js and Firebase ",
+        "image": "whatsapp-clone.png",
+        "url": "https://whatsapp-clone.bunnycoding.com/"
+      },
+      {
+        "title": "Text Editor",
+        "category": "Simple text editor build with JavaScript",
+        "image": "text-editor.png",
+        "url": "https://text-editor.bunnycoding.com/"
+      },
+      {
+        "title": "Parallax Scrolling",
+        "category": "Parallax Scroplling build with Vanilla JavaScript",
+        "image": "parallax-scrolling.png",
+        "url": "https://pixels.bunnycoding.com/parallaxscrolling/"
+      },
+      {
+        "title": "Sprites for videogames",
+        "category": "Recreate sprites for videogame characters",
+        "image": "sprites.png",
+        "url": "https://pixels.bunnycoding.com/2dgame/"
+      },
+      {
+        "title": "Sprites and characters random moves",
+        "category": "Create character movements using vanilla JavaScript",
+        "image": "enemies4.png",
+        "url": "https://pixels.bunnycoding.com/enemiesanimations/charactersanimation4/"
       }
     ]
   },

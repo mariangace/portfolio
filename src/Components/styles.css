@@ -3,6 +3,8 @@
 }
 
 .img-container {
+  position: relative;
+  max-height: 400px;
   flex: 50;
   display: flex;
   justify-content: center;
@@ -13,5 +15,5 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   line-height: 1;
-  font-size: 55px !important;
+  font-size: 55px;
 }

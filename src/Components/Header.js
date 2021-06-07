@@ -66,7 +66,7 @@ class Header extends Component {
           <div className='banner-text'>
             <img className='header-img' alt='bunny' src='../images/Bunny_Coding.jpg' />
             <h2 className='responsive-headline'>
-              Hi! I'm Mariana <hr></hr>>García Cervantes.
+              Hi! I'm Mariana <hr></hr>García Cervantes.
             </h2>
             <h3>
               I'm a {city} based <span>{occupation}</span> ⚛️.

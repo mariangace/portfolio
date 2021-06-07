@@ -2,7 +2,7 @@ import React from 'react';
 
 function Avatar() {
   return (
-    <>
+    <div className='img-container'>
       <div className='background-images'>
         <img src='./images/cloud.png' width='50px' alt='clound' />
         <img src='./images/cloud.png' width='200px' alt='clound' />
@@ -44,7 +44,7 @@ function Avatar() {
           <img src='./images/carrot.png' alt='carrot' width='50px' height='50px' />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
