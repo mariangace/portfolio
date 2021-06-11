@@ -126,10 +126,10 @@
         "url": "https://pixels.bunnycoding.com/2dgame/"
       },
       {
-        "title": "Sprites and characters random moves",
+        "title": "Starwars sprites and characters random moves",
         "category": "Create character movements using vanilla JavaScript",
-        "image": "enemies4.png",
-        "url": "https://pixels.bunnycoding.com/enemiesanimations/charactersanimation4/"
+        "image": "starwars.png",
+        "url": "https://starwars.bunnycoding.com/"
       }
     ]
   },
