@@ -14,7 +14,7 @@
       "state": "Mexico City",
       "zip": "04000"
     },
-    "website": "http://www.bunnycoding.com",
+    "website": "http://www.mariangarcia.site",
     "resumedownload": "images/portfolio/Resume.pdf",
     "social": [
       {
@@ -24,7 +24,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/bunny.coding/",
+        "url": "https://www.instagram.com/marian.software.eng/",
         "className": "fa fa-instagram"
       },
       {
@@ -46,9 +46,15 @@
     ],
     "work": [
       {
+        "company": "Kwara",
+        "title": "Frontend Engineer",
+        "years": "November 2021 - Present",
+        "description": "Frontend Engineer. In charge of development for the Connect App, using ReactJS. Connect App allows over 40K members to easily access their accounts and perform transactions from their mobile devices. Development using ReactJS, Typescript, Cypress, Graphiti Spraypaint."
+      },
+      {
         "company": "Atomic Labs",
         "title": "Frontend Engineer",
-        "years": "March 2018 - Present",
+        "years": "March 2018 - October 2021",
         "description": "Frontend leader for KAAX fintech project. KAAX is a currency exchange in real time without intermediaries platform. Landing page development using: NextJs, Redux, GraphQL and Strapi CMS.  Webapp development using ReactJS, Redux, Typescript, Sass and Websockets."
       },
       {
