@@ -93,49 +93,49 @@
         "title": "Pinterest Clone",
         "category": "Pinterest Clone built with React Js and Firebase",
         "image": "pinterest-clone.png",
-        "url": "https://pinterest-clone.bunnycoding.com/"
+        "url": "https://pinterest-clone.mariangarcia.site/"
       },
       {
         "title": "Netflix Clone",
         "category": "Netflix Clone built with MongoDB, ExpressJS, Javascript, NodeJS",
         "image": "netflix-clone.png",
-        "url": "https://netflix-clone.bunnycoding.com/singup/singup.html"
+        "url": "https://netflix-clone.mariangarcia.site/singup/singup.html"
       },
       {
         "title": "Amazon Clone",
         "category": "Amazon Clone built with React Js ",
         "image": "amazon-clone.png",
-        "url": "https://amazon-clone.bunnycoding.com/"
+        "url": "https://amazon-clone.mariangarcia.site/"
       },
       {
         "title": "Whatsapp Clone",
         "category": "Whatsapp clone built with React Js and Firebase ",
         "image": "whatsapp-clone.png",
-        "url": "https://whatsapp-clone.bunnycoding.com/"
+        "url": "https://whatsapp-clone.mariangarcia.site/"
       },
       {
         "title": "Text Editor",
         "category": "Simple text editor build with JavaScript",
         "image": "text-editor.png",
-        "url": "https://text-editor.bunnycoding.com/"
+        "url": "https://text-editor.mariangarcia.site/"
       },
       {
         "title": "Parallax Scrolling",
         "category": "Parallax Scroplling build with Vanilla JavaScript",
         "image": "parallax-scrolling.png",
-        "url": "https://pixels.bunnycoding.com/parallaxscrolling/"
+        "url": "https://pixels.mariangarcia.site/parallaxscrolling/"
       },
       {
         "title": "Sprites for videogames",
         "category": "Recreate sprites for videogame characters",
         "image": "sprites.png",
-        "url": "https://pixels.bunnycoding.com/2dgame/"
+        "url": "https://pixels.mariangarcia.site/2dgame/"
       },
       {
         "title": "Starwars sprites and characters random moves",
         "category": "Create character movements using vanilla JavaScript",
         "image": "starwars.png",
-        "url": "https://starwars.bunnycoding.com/"
+        "url": "https://starwars.mariangarcia.site/"
       }
     ]
   },
